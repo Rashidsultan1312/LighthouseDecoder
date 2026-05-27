@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBBBBBBBBBBBBBBBBBB0001 /* LighthouseDecoderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0001 /* LighthouseDecoderApp.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0002 /* RootView.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0003 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0003 /* AppConfig.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0004 /* LanternLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0004 /* LanternLedger.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0005 /* SignalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0005 /* SignalFrame.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0006 /* SignalConsentPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0006 /* SignalConsentPanel.swift */; };
+		BBBBBBBBBBBBBBBBBBBB002F /* SignalLaunchScaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA002F /* SignalLaunchScaffold.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0007 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0007 /* OnboardingFlow.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0008 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0008 /* MainTabView.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0009 /* ConverterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0009 /* ConverterScreen.swift */; };
+		BBBBBBBBBBBBBBBBBBBB000A /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA000A /* HistoryScreen.swift */; };
+		BBBBBBBBBBBBBBBBBBBB000B /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA000B /* SettingsScreen.swift */; };
+		BBBBBBBBBBBBBBBBBBBB000C /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA000C /* Palette.swift */; };
+		BBBBBBBBBBBBBBBBBBBB000D /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA000D /* PrivacyWebView.swift */; };
+		BBBBBBBBBBBBBBBBBBBB000E /* MeasureKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA000E /* MeasureKind.swift */; };
+		BBBBBBBBBBBBBBBBBBBB000F /* MeasureUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA000F /* MeasureUnit.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0010 /* ConversionMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0010 /* ConversionMath.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0011 /* ConversionDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0011 /* ConversionDesk.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0012 /* Assets.xcassets */; };
+		BBBBBBBBBBBBBBBBBBBB0013 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDDDDDDDDDDDDDDDDDDD0006 /* Localizable.strings */; };
+		BBBBBBBBBBBBBBBBBBBB0014 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0015 /* Typography.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0015 /* CategoryAccent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0016 /* CategoryAccent.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0016 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0017 /* Spacing.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0017 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0018 /* SectionHeader.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0018 /* RoundedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0019 /* RoundedCard.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0019 /* ChipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA001A /* ChipButton.swift */; };
+		BBBBBBBBBBBBBBBBBBBB001A /* EmptyStateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA001B /* EmptyStateBox.swift */; };
+		BBBBBBBBBBBBBBBBBBBB001B /* StatBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA001C /* StatBadge.swift */; };
+		BBBBBBBBBBBBBBBBBBBB001C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA001D /* Haptics.swift */; };
+		BBBBBBBBBBBBBBBBBBBB001D /* NumberFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA001E /* NumberFormatting.swift */; };
+		BBBBBBBBBBBBBBBBBBBB001E /* ClipboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA001F /* ClipboardHelper.swift */; };
+		BBBBBBBBBBBBBBBBBBBB001F /* BackgroundDecor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0020 /* BackgroundDecor.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0020 /* UnitFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0021 /* UnitFact.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0021 /* QuickRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0022 /* QuickRecipe.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0022 /* CategoryHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0023 /* CategoryHero.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0023 /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0024 /* CategoryCard.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0024 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0025 /* CategoryDetailView.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0025 /* CategoriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0026 /* CategoriesScreen.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0026 /* FormulaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0027 /* FormulaCard.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0027 /* UnitFactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0028 /* UnitFactCard.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0028 /* ReferenceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA0029 /* ReferenceScreen.swift */; };
+		BBBBBBBBBBBBBBBBBBBB0029 /* CheatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA002A /* CheatRow.swift */; };
+		BBBBBBBBBBBBBBBBBBBB002A /* CheatsheetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA002B /* CheatsheetScreen.swift */; };
+		BBBBBBBBBBBBBBBBBBBB002B /* ConverterDecor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAAAAAAAAAAAAAA002C /* ConverterDecor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAAAAAAAAAAAAAAAAAAA0001 /* LighthouseDecoderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseDecoderApp.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0003 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0004 /* LanternLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternLedger.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0005 /* SignalFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalFrame.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0006 /* SignalConsentPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalConsentPanel.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA002F /* SignalLaunchScaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalLaunchScaffold.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0007 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0008 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0009 /* ConverterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterScreen.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA000A /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA000B /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA000C /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA000D /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA000E /* MeasureKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureKind.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA000F /* MeasureUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureUnit.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0010 /* ConversionMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionMath.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0011 /* ConversionDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionDesk.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0013 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0014 /* LighthouseDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighthouseDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAAAAAAAAAAAAAAAAAA0015 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0016 /* CategoryAccent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAccent.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0017 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0018 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0019 /* RoundedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCard.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA001A /* ChipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipButton.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA001B /* EmptyStateBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateBox.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA001C /* StatBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatBadge.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA001D /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA001E /* NumberFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatting.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA001F /* ClipboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHelper.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0020 /* BackgroundDecor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundDecor.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0021 /* UnitFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitFact.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0022 /* QuickRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickRecipe.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0023 /* CategoryHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHero.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0024 /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0025 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0026 /* CategoriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesScreen.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0027 /* FormulaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaCard.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0028 /* UnitFactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitFactCard.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA0029 /* ReferenceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceScreen.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA002A /* CheatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatRow.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA002B /* CheatsheetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatsheetScreen.swift; sourceTree = "<group>"; };
+		AAAAAAAAAAAAAAAAAAAA002C /* ConverterDecor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterDecor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDDDDDDDDDDDDDDDDDD0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCCCCCCCCCCCCCCCCCC0001 = {
+			isa = PBXGroup;
+			children = (
+				CCCCCCCCCCCCCCCCCCCC0002 /* LighthouseDecoder */,
+				CCCCCCCCCCCCCCCCCCCC000A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0002 /* LighthouseDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCCCCCCCCCCCCCCCCC0003 /* App */,
+				CCCCCCCCCCCCCCCCCCCC0004 /* Lantern */,
+				CCCCCCCCCCCCCCCCCCCC0005 /* Onboarding */,
+				CCCCCCCCCCCCCCCCCCCC0006 /* Screens */,
+				CCCCCCCCCCCCCCCCCCCC0007 /* Support */,
+				CCCCCCCCCCCCCCCCCCCC0008 /* Model */,
+				CCCCCCCCCCCCCCCCCCCC0009 /* Resources */,
+				AAAAAAAAAAAAAAAAAAAA0012 /* Assets.xcassets */,
+				CCCCCCCCCCCCCCCCCCCC000B /* Components */,
+				CCCCCCCCCCCCCCCCCCCC000C /* Decor */,
+				CCCCCCCCCCCCCCCCCCCC000D /* Theme */,
+				CCCCCCCCCCCCCCCCCCCC000E /* Utilities */,
+			);
+			path = LighthouseDecoder;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0001 /* LighthouseDecoderApp.swift */,
+				AAAAAAAAAAAAAAAAAAAA0002 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0004 /* Lantern */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0003 /* AppConfig.swift */,
+				AAAAAAAAAAAAAAAAAAAA0004 /* LanternLedger.swift */,
+				AAAAAAAAAAAAAAAAAAAA0005 /* SignalFrame.swift */,
+				AAAAAAAAAAAAAAAAAAAA0006 /* SignalConsentPanel.swift */,
+				AAAAAAAAAAAAAAAAAAAA002F /* SignalLaunchScaffold.swift */,
+			);
+			path = Lantern;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0005 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0007 /* OnboardingFlow.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0006 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0008 /* MainTabView.swift */,
+				AAAAAAAAAAAAAAAAAAAA0009 /* ConverterScreen.swift */,
+				AAAAAAAAAAAAAAAAAAAA000A /* HistoryScreen.swift */,
+				AAAAAAAAAAAAAAAAAAAA000B /* SettingsScreen.swift */,
+				CCCCCCCCCCCCCCCCCCCC000F /* Categories */,
+				CCCCCCCCCCCCCCCCCCCC0010 /* Cheatsheet */,
+				CCCCCCCCCCCCCCCCCCCC0011 /* Converter */,
+				CCCCCCCCCCCCCCCCCCCC0012 /* Reference */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0007 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA000C /* Palette.swift */,
+				AAAAAAAAAAAAAAAAAAAA000D /* PrivacyWebView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA000E /* MeasureKind.swift */,
+				AAAAAAAAAAAAAAAAAAAA000F /* MeasureUnit.swift */,
+				AAAAAAAAAAAAAAAAAAAA0010 /* ConversionMath.swift */,
+				AAAAAAAAAAAAAAAAAAAA0011 /* ConversionDesk.swift */,
+				AAAAAAAAAAAAAAAAAAAA0021 /* UnitFact.swift */,
+				AAAAAAAAAAAAAAAAAAAA0022 /* QuickRecipe.swift */,
+				AAAAAAAAAAAAAAAAAAAA0023 /* CategoryHero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDDDDDDDDDDDDDDDDD0006 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0014 /* LighthouseDecoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC000B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0018 /* SectionHeader.swift */,
+				AAAAAAAAAAAAAAAAAAAA0019 /* RoundedCard.swift */,
+				AAAAAAAAAAAAAAAAAAAA001A /* ChipButton.swift */,
+				AAAAAAAAAAAAAAAAAAAA001B /* EmptyStateBox.swift */,
+				AAAAAAAAAAAAAAAAAAAA001C /* StatBadge.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC000C /* Decor */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0020 /* BackgroundDecor.swift */,
+			);
+			path = Decor;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC000D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0015 /* Typography.swift */,
+				AAAAAAAAAAAAAAAAAAAA0016 /* CategoryAccent.swift */,
+				AAAAAAAAAAAAAAAAAAAA0017 /* Spacing.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC000E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA001D /* Haptics.swift */,
+				AAAAAAAAAAAAAAAAAAAA001E /* NumberFormatting.swift */,
+				AAAAAAAAAAAAAAAAAAAA001F /* ClipboardHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC000F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0024 /* CategoryCard.swift */,
+				AAAAAAAAAAAAAAAAAAAA0025 /* CategoryDetailView.swift */,
+				AAAAAAAAAAAAAAAAAAAA0026 /* CategoriesScreen.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0010 /* Cheatsheet */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA002A /* CheatRow.swift */,
+				AAAAAAAAAAAAAAAAAAAA002B /* CheatsheetScreen.swift */,
+			);
+			path = Cheatsheet;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0011 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA002C /* ConverterDecor.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		CCCCCCCCCCCCCCCCCCCC0012 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0027 /* FormulaCard.swift */,
+				AAAAAAAAAAAAAAAAAAAA0028 /* UnitFactCard.swift */,
+				AAAAAAAAAAAAAAAAAAAA0029 /* ReferenceScreen.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDDDDDDDDDDDDDDDDDD0004 /* LighthouseDecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDDDDDDDDDDDDDDDDDD0008 /* Build configuration list for PBXNativeTarget "LighthouseDecoder" */;
+			buildPhases = (
+				DDDDDDDDDDDDDDDDDDDD0002 /* Sources */,
+				DDDDDDDDDDDDDDDDDDDD0001 /* Frameworks */,
+				DDDDDDDDDDDDDDDDDDDD0003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LighthouseDecoder;
+			productName = LighthouseDecoder;
+			productReference = AAAAAAAAAAAAAAAAAAAA0014 /* LighthouseDecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDDDDDDDDDDDDDDDDDD0005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DDDDDDDDDDDDDDDDDDDD0004 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DDDDDDDDDDDDDDDDDDDD0007 /* Build configuration list for PBXProject "LighthouseDecoder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCCCCCCCCCCCCCCCCCCC0001;
+			productRefGroup = CCCCCCCCCCCCCCCCCCCC000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDDDDDDDDDDDDDDDDDD0004 /* LighthouseDecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDDDDDDDDDDDDDDDDDD0003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBBBBBBBBBBBBBBBBBB0012 /* Assets.xcassets in Resources */,
+				BBBBBBBBBBBBBBBBBBBB0013 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDDDDDDDDDDDDDDDDDD0002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBBBBBBBBBBBBBBBBBB0001 /* LighthouseDecoderApp.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0002 /* RootView.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0003 /* AppConfig.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0004 /* LanternLedger.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0005 /* SignalFrame.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0006 /* SignalConsentPanel.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB002F /* SignalLaunchScaffold.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0007 /* OnboardingFlow.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0008 /* MainTabView.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0009 /* ConverterScreen.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB000A /* HistoryScreen.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB000B /* SettingsScreen.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB000C /* Palette.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB000D /* PrivacyWebView.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB000E /* MeasureKind.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB000F /* MeasureUnit.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0010 /* ConversionMath.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0011 /* ConversionDesk.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0014 /* Typography.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0015 /* CategoryAccent.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0016 /* Spacing.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0017 /* SectionHeader.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0018 /* RoundedCard.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0019 /* ChipButton.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB001A /* EmptyStateBox.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB001B /* StatBadge.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB001C /* Haptics.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB001D /* NumberFormatting.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB001E /* ClipboardHelper.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB001F /* BackgroundDecor.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0020 /* UnitFact.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0021 /* QuickRecipe.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0022 /* CategoryHero.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0023 /* CategoryCard.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0024 /* CategoryDetailView.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0025 /* CategoriesScreen.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0026 /* FormulaCard.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0027 /* UnitFactCard.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0028 /* ReferenceScreen.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB0029 /* CheatRow.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB002A /* CheatsheetScreen.swift in Sources */,
+				BBBBBBBBBBBBBBBBBBBB002B /* ConverterDecor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDDDDDDDDDDDDDDDDDDD0006 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAAAAAAAAAAAAAAAAAAA0013 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDDDDDDDDDDDDDDDDDD0009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDDDDDDDDDDDDDDDDDDD000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDDDDDDDDDDDDDDDDDD000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lighthouse Decoder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.lighthousedecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDDDDDDDDDDDDDDDDDDD000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lighthouse Decoder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.lighthousedecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDDDDDDDDDDDDDDDDDD0007 /* Build configuration list for PBXProject "LighthouseDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDDDDDDDDDDDDDDDDDD0009 /* Debug */,
+				DDDDDDDDDDDDDDDDDDDD000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDDDDDDDDDDDDDDDDDD0008 /* Build configuration list for PBXNativeTarget "LighthouseDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDDDDDDDDDDDDDDDDDD000B /* Debug */,
+				DDDDDDDDDDDDDDDDDDDD000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDDDDDDDDDDDDDDDDDD0005 /* Project object */;
+}
